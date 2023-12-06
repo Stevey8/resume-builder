@@ -11,15 +11,21 @@
 	<meta name="description" content="The Resume/CV for Steven Tsai"/>
 	<meta charset="UTF-8"> 
 
-	<!-- TODO: REVISIT THESE TO ADJUST THE PARAMETERS -->
 	<link type="text/css" rel="stylesheet" href="resume_style.css">
-	<link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:400,300' rel='stylesheet' type='text/css'>
 
-	<!--[if lt IE 9]>
-	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
-
+	<style>
+		@media print {
+		  body {
+			margin: 0;
+			padding: 0;
+			background-color: #fff; 
+		  }
+		  .no-print {
+			display: none;
+		  }
+		}
+	  </style>
 </head>
 
 
@@ -62,20 +68,15 @@
 					</div>
 
 					<div class="sectionContent">
-						<div class="contentItem">
-							<div class="itemLeft">
-								<h2>Bachelor of Kinesiology</h2>
-								<h3>University of British Columbia</h3>
-							</div>
-							<div class="itemRight">
-								<h3>Vancouver, BC</h3>
-								<h3>Expected Graduation Date: May.2023</h3>
-							</div>
+						<div class="contentTitle">
+							<h2>Bachelor of Kinesiology</h2>
+							<h3>&#127970; University of British Columbia &nbsp; &#128205; Vancouver, BC &nbsp; &#128197; Graduation May.2023</h3>
 						</div>
 
 						<div class='contentInfo'>
-							<li>Specialized in Neuromechanical and Physiological Sciences.</li>
-							<li>Electives mainly focused on Data Science/Statistics.</li>
+							<ul>
+								<li>Specialized in Neuromechanical and Physiological Sciences.</li>
+							</ul>
 						</div>
 					</div>
 					<div class="clear"></div>
@@ -91,86 +92,59 @@
 
 					<div class="sectionContent">
 						<article>
-							<div class="contentItem">
-								<div class="itemLeft">
-									<h2>...(KIN482E)</h2>
-									<h3>University of British Columbia</h3>
-								</div>
-								<div class="itemRight">
-									<h3>Vancouver, BC</h3>
-									<h3>Nov.2023-Dec.2023</h3>
-								</div>
+							<div class="contentTitle">
+								<h2>Fastball v.s. Pitcher Performance: Is Pitching Fast a Guarantee of Success?</h2>
+								<h3>&#127970; University of British Columbia &nbsp; &#128205; Vancouver, BC &nbsp; &#128197; Nov.2023-Dec.2023</h3>
 							</div>
 							<div class='contentInfo'>
-								<article>
-									<li></li>
-								</article>
+								<ul>
+									<!-- TODO: put scikit-learn back in after add it to github -->
+									<li>Technologies: Python (pandas, matplotlib)</li>
+									<li>
+										Conducted research of between fastball speed & pitching performance on different metrics 
+										based on a raw pitch-by-pitch dataset of MLB season 2019.
+									</li>
+									<li>
+										Concluded insightful explanation of the relationship between fastball speed and 
+										pitching strategy based on data-driven method.
+									</li>
+								</ul>
 							</div>
 						</article>
 
 						<article>
-							<div class="contentItem">
-								<div class="itemLeft">
-									<h2>...(hackcamp)</h2>
-									<h3>Hackcamp 2023</h3>
-								</div>
-								<div class="itemRight">
-									<h3>Vancouver, BC</h3>
-									<h3>Nov.2023</h3>
-								</div>
+							<div class="contentTitle">
+								<h2>ZenTask Manager (Database Developer & Algorithm Implementation)</h2>
+								<h3>&#127970; Hackcamp 2023 &nbsp; &#128205; Vancouver, BC &nbsp; &#128197; Nov.2023</h3>
 							</div>
 							<div class='contentInfo'>
-								<article>
-									<li></li>
-								</article>
+								<ul>
+									<li>Technologies: Python (pandas), HTML5, CSS</li>
+									<li>Created a task database that records tasks and their details input by users.</li>
+									<li>Constructed an algorithm that interact with users input of task details and effectively return the prioritized tasks.</li>
+								</ul>
 							</div>
 						</article>
 
 						<article>
-							<div class="contentItem">
-								<div class="itemLeft">
-									<h2>...(KIN335)</h2>
-									<h3>University of British Columbia</h3>
-								</div>
-								<div class="itemRight">
-									<h3>Vancouver, BC</h3>
-									<h3>Sep.2022-Nov.2022</h3>
-								</div>
+							<div class="contentTitle">
+								<h2>Advanced Applications of Exercise Physiology (Lab Data Analyst) </h2>
+								<h3>&#127970; University of British Columbia &nbsp; &#128205; Vancouver, BC &nbsp; &#128197; Sep.2022-Nov.2022</h3>
 							</div>
 							<div class='contentInfo'>
-								<article>
-									<li>Technologies used: Python.</li>
-									<li>Wrote Python codes to efficiently clean, analyz and visualize data collected from in-lab experiments.</li>
-									<li>Interpreted and communicated the results to colleagues and established the lab reports collaboratively.</li>
-								</article>
+								<ul>
+									<li>Technologies: Python (pandas, matplotlib)</li>
+									<li>
+										Cleaned, analyzed and visualized data collected from in-lab physiological experiments inlcuding 
+										high-intensity interval training, hypoxia and thermoregulation.
+									</li>
+								</ul>
 							</div>
 						</article>
 					</div>
-				</article>
-				<div class="clear"></div>
+					<div class="clear"></div>
+				</article>	
 			</section>
-			
-
-			<section>
-				<div class="sectionTitle">
-					<h1>Key Skills</h1>
-				</div>
-				<div class="sectionContent">
-					<ul class="keySkills">
-						<li>Python (advanced)</li>
-						<li style="padding-left: 1.5em;">Pandas (advanced)</li>
-						<li style="padding-left: 1.5em;">Matplotlib (intermediate)</li>
-						<li style="padding-left: 1.5em;">Scikit-learn (intermediate)</li>
-						<li>R (intermediate)</li>
-						<li>HTML5</li>
-						<li>CSS</li>
-						<li>Bash</li>
-						<li>Github</li>
-					</ul>
-				</div>
-				<div class="clear"></div>
-			</section>
-
 
 
 			<section>
@@ -181,42 +155,78 @@
 
 					<div class="sectionContent">
 						<article>
-							<div class="contentItem">
-								<div class="itemLeft">
-									<h2>Basketball Instructor</h2>
-									<h3>UBC Active Kids</h3>
-								</div>
-								<div class="itemRight">
-									<h3>Vancouver, BC</h3>
-									<h3>Sep.2021-Apr.2023</h3>
-								</div>
+							<div class="contentTitle">
+								<h2>Basketball Instructor</h2>
+								<h3>&#127970; UBC Active Kids &nbsp; &#128205; Vancouver, BC &nbsp; &#128197; Sep.2021-Apr.2023</h3>
 							</div>
+							
 							<div class='contentInfo'>
-								<li>Facilitated a basketball program for ages 8~12 by tailoring activities, drills and games that ensured fun and engagement for young athletes.</li>
-								<li>Ran sessions of up to 20 kids enthusiastically & built rapport with every single kid empathetically to motivate them to play in a supportive environment.</li>
+								<ul>
+									<li>Facilitated a basketball program for ages 8~12 by tailoring activities, drills and games that ensured fun and engagement for young athletes.</li>
+									<li>Ran sessions of up to 20 kids enthusiastically & built rapport with every single kid empathetically to motivate them to play in a supportive environment.</li>	
+								</ul>
 							</div>
 						</article>
 
 						<article>
-							<div class="contentItem">
-								<div class="itemLeft">
-									<h2>Teaching Assistant & Material Translator</h2>
-									<h3>CodingBar, Airabbi Inc.</h3>
-								</div>
-								<div class="itemRight">
-									<h3>Taipei, Taiwan</h3>
-									<h3>May.2020-Aug.2020</h3>
-								</div>
+							<div class="contentTitle">
+								<h2>Teaching Assistant & Material Translator</h2>
+								<h3>&#127970; CodingBar, Airabbi Inc. &nbsp; &#128205; Taipei, Taiwan &nbsp; &#128197; May.2020-Aug.2020</h3>
 							</div>
+							
 							<div class='contentInfo'>
-								<li>Led programming-related games and activities that broke down core concepts (e.g. iteration and conditional statements) to help young learners stay engaged and learn effectively.</li>
-								<li>Translated 10 sets of lecture slides for a beginners' Python programming course from Chinese to English that assisted the company in expanding its education to foreign students.</li>
+								<ul>
+									<li>Led programming-related games and activities that broke down core concepts (e.g. iteration and conditional statements) to help young learners stay engaged and learn effectively.</li>
+									<li>Translated 10 sets of lecture slides for a beginners' Python programming course from Chinese to English that assisted the company in expanding its education to foreign students.</li>
+								</ul>
 							</div>
 						</article>
 					</div>
+					<div class="clear"></div>
 				</article>
+			</section>
+
+
+			<section>
+				<div class="sectionTitle">
+					<h1>Key Skills</h1>
+				</div>
+
+				<div class="sectionContent">
+					<div class="skillList">
+						Programming Languages:
+						&nbsp;<span class="skillBox">Python</span>
+						&nbsp;<span class="skillBox">R</span>
+						&nbsp;<span class="skillBox">HTML5</span>
+						&nbsp;<span class="skillBox">CSS</span>  
+						&nbsp;<span class="skillBox">Bash</span>
+					</div>
+					<div class="skillList"> 
+						Data Science:
+						&nbsp;<span class="skillBox">Data Analysis</span> 
+						&nbsp;<span class="skillBox">Data Visualization</span>
+						&nbsp;<span class="skillBox">Machine Learning</span>
+					</div>
+				</div>
 				<div class="clear"></div>
 			</section>
+
+			<section>
+				<div class="sectionTitle">
+					<h1>Certificates/<br>Other skills</h1>
+					<h1></h1>
+				</div>
+					<div class="skillList"> 
+						&nbsp;&nbsp;&nbsp;
+						&nbsp;<span class="skillBox">Notion</span> 
+						&nbsp;<span class="skillBox">CPR-C</span> 
+						&nbsp;<span class="skillBox">PADI Open Water</span>
+						&nbsp;<span class="skillBox">Final Cut Pro X</span>
+					</div>
+				</div>
+				<div class="clear"></div>
+			</section>
+
 		</div>
 	</div>
 </body>
