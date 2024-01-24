@@ -24,7 +24,6 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 
 .clear {clear: both;}
 
-
 /* p {
 	font-size: 1em;
 	line-height: 1.4em;
@@ -49,7 +48,7 @@ html, body {background: #181818; font-family: 'Lato', helvetica, arial, sans-ser
 	font-size: 2.5em;
 	font-weight: bold;
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
-	margin-top: 10px;
+	margin-top: 6px;
 	margin-bottom: auto;
 }
 
@@ -130,9 +129,23 @@ section:last-child {
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	font-size: 1em;
+	display: inline;
+	color: #1C1C1C;
 }
 
 .contentTitle h3 {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	color: #2B2B2B;
+}
+
+.contentTitle span {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+	font-size: 1em;
+	opacity: 0.9; 
+  }
+
+.contentTitle p {
 	font-family: 'Lato', Helvetica, Arial, sans-serif;
 	font-size: 0.7em;
 	opacity: 0.7; 
@@ -142,12 +155,12 @@ section:last-child {
 .contentInfo ul {
 	list-style-position: outside;
 	margin-left: 1em;
+	color: #333333;
 }
 
 .contentInfo li {
 	font-size: 0.8em;
 	margin-bottom: 2px;
-	color: #333333;
 	/* list-style-position: outside; */
 }
 
@@ -159,12 +172,11 @@ section:last-child {
 	font-size: 0.8em;
 	line-height: 2em;
 	margin-bottom: 2px;
-	color: #333333;
 }
 
 .skillBox {
 	padding: 2px; 
 	border: 1.5px solid #ccc;
 	border-radius: 6px; 
-	color: #34495e; 
+	font-weight: bolder;
 }
